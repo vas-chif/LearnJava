@@ -10,17 +10,19 @@ public class IfElseTernary {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please enter tow numbers for compare: ");
-        int firstInput = sc.nextInt();
-        int secondInput = sc.nextInt();
+        System.out.println("First number: ");
+        int a = sc.nextInt();
+        System.out.println("Second number: ");
+        int b = sc.nextInt();
 
         //● if-else construct
-        if (firstInput > secondInput)
-            System.out.println("The number biggest is : " + firstInput + " Verified with if-else construct!");
+        if (a > b)
+            System.out.println("The number biggest is : " + a + " Verified with if-else construct!");
         else
-            System.out.println("The number biggest is : " + secondInput + " Verified with if-else construct!");
+            System.out.println("The number biggest is : " + b + " Verified with if-else construct!");
 
         //● ternary construct
-        int biggest = (firstInput > secondInput) ? firstInput : secondInput;
+        int biggest = (a > b) ? a : b;
         System.out.println("The number biggest is : " + biggest + " Verified with ternary construct!");
     }
 }
