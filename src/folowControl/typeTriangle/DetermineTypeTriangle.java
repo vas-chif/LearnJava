@@ -1,4 +1,4 @@
-package src.folowControl.typetriangle;
+package src.folowControl.typeTriangle;
 
 import java.util.Scanner;
 
