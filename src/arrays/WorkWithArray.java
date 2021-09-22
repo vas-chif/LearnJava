@@ -1,4 +1,4 @@
-package src.array;
+package src.arrays;
 
 /*
 Working with arrays

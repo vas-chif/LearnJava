@@ -7,8 +7,11 @@ or do-while constructs.
 public class SomeNaturalNumbers {
     public static void main(String[] args) {
         System.out.println("This programme calculate the sum natural number of 0 to 100 and show the sum on the console!");
+
         someNaturalNumberDoWhile();
+
         System.out.println();
+
         someNaturalNumberWhile();
     }
 
