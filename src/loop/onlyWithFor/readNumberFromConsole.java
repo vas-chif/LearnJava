@@ -24,8 +24,4 @@ public class readNumberFromConsole {
         }
         System.out.println("You are entered " + count + " numbers.");
     }
-
-    private static void readNumberFromConsole() {
-
-    }
 }
