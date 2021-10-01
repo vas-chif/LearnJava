@@ -10,15 +10,15 @@ print the result to the console.
 6. Call the calculateArea() and calculatePerimeter() method on both objects.
  */
 public class Rectangle {
-    int length;
-    int width;
+    public int length;
+    public int width;
 
-    void calculateArea() {
+    public void calculateArea() {
         double rectangleArea = length * width;
         System.out.println("The area of the rectangle is: " + rectangleArea);
     }
 
-    void calculatePerimeter() {
+    public void calculatePerimeter() {
         double rectanglePerimeter = Math.pow(length, 2) + Math.pow(width, 2);
         System.out.println("The perimeter of the rectangle is: " + rectanglePerimeter);
     }
