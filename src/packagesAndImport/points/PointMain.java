@@ -2,7 +2,7 @@ package src.packagesAndImport.points;
 
 import java.util.Scanner;
 
-public class PintMain {
+public class PointMain {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Point point = new Point();
