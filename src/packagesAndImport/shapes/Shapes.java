@@ -12,6 +12,7 @@ length and width properties.
  */
 import src.packagesAndImport.shapes.circle.Circle;
 import src.packagesAndImport.shapes.rectangle.Rectangle;
+import src.packagesAndImport.shapes.triangle.Triangle;
 
 import java.util.Scanner;
 
@@ -19,11 +20,13 @@ public class Shapes {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("Working wit circle.");
         Circle circle = new Circle();
         System.out.print("Please enter length of radius: ");
         circle.radius = sc.nextInt();
         circle.calculateArea();
 
+        System.out.println("\nWorking wit rectangle.");
         Rectangle rectangle = new Rectangle();
         System.out.print("Please enter length of rectangle: ");
         rectangle.length = sc.nextInt();
@@ -31,5 +34,9 @@ public class Shapes {
         rectangle.width = sc.nextInt();
         rectangle.calculatePerimeter();
         rectangle.calculateArea();
+
+        System.out.println("\nWorking wit triangle.");
+        Triangle triangle = new Triangle();
+        triangle.determineType();
     }
 }
