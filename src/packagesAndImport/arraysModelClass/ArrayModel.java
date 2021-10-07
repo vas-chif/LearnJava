@@ -14,7 +14,12 @@ odd() - ﬁnds the number of odd integers. Print them to the console.
 length() - determines the length of the array.
  */
 public class ArrayModel {
+    Scanner sc = new Scanner(System.in);
     public int[] items;
+
+    public void setItems() {
+        items = new int [sc.nextInt()];
+    }
 
     public void insertItemToArray() {
         Scanner scItem = new Scanner(System.in);
