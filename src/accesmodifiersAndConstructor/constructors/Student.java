@@ -8,14 +8,16 @@ public class Student {
     private String name;
 
     Student() {
+
         name = "Unknown";
     }
 
-    Student(String name){
-       this.name = name; // daca variabilele conincid prin apelara key "this." si invoca varibila din externul constructorului
+    Student(String name) {
+        this.name = name; // daca variabilele conincid prin apelara key "this." si invoca varibila din externul constructorului
     }
 
     public String getName() {
+
         return name;
     }
 }
