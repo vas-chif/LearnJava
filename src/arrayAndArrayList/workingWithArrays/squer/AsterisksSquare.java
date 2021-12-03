@@ -1,4 +1,4 @@
-package src.arrays.squer;
+package src.arrayAndArrayList.workingWithArrays.squer;
 
 import java.util.Scanner;
 

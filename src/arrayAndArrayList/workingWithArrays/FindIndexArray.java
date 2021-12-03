@@ -1,4 +1,4 @@
-package src.arrays;
+package src.arrayAndArrayList.workingWithArrays;
 
 //5.3.4 Write a Java program to ﬁnd the index of an array element.
 public class FindIndexArray {

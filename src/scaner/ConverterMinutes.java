@@ -19,13 +19,13 @@ public class ConverterMinutes {
         int days = minuteToCovert / minInADay;
         int dayInAYear = 365;
         int minInAYear = minInADay * dayInAYear;
-        int years = minuteToCovert / minInAYear;
+        double years = (double)minuteToCovert / minInAYear;
 
 //                Print the result to the console.
 //        1.  a number of years;
 //        2. a number of days.
 
-        System.out.println("Number of Years: " + years);
+        System.out.println("Number of Years: " + (double)years);
         System.out.println("Number of Days: " + days);
 
 

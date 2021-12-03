@@ -1,4 +1,4 @@
-package src.arrays;
+package src.arrayAndArrayList.workingWithArrays;
 
 /*
 5.3.1 Write a Java program to sum values of an array.

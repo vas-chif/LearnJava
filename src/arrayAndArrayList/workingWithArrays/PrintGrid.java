@@ -1,4 +1,4 @@
-package src.arrays;
+package src.arrayAndArrayList.workingWithArrays;
 /* Write a Java program to print the following grid:
 - - - - - - - - - -
 - - - - - - - - - -
@@ -7,8 +7,6 @@ package src.arrays;
 - - - - - - - - - -
 - - - - - - - - - -
  */
-
-import java.util.Arrays;
 
 public class PrintGrid {
     public static void main(String[] args) {

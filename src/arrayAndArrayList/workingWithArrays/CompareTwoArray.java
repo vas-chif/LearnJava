@@ -1,4 +1,4 @@
-package src.arrays;
+package src.arrayAndArrayList.workingWithArrays;
 
 /*
 Write a Java program to check if two arrays are equal: check both the length and the values.

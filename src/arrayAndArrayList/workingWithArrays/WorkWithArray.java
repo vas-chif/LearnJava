@@ -1,4 +1,4 @@
-package src.arrays;
+package src.arrayAndArrayList.workingWithArrays;
 
 /*
 Working with arrays

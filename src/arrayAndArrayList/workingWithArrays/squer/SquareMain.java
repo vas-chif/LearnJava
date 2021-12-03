@@ -1,4 +1,4 @@
-package src.arrays.squer;
+package src.arrayAndArrayList.workingWithArrays.squer;
 
 public class SquareMain {
     public static void main(String[] args) {

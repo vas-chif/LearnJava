@@ -1,4 +1,4 @@
-package src.arrays;
+package src.arrayAndArrayList.workingWithArrays;
 
 /*
 Write an expression that refers to the string Brighton within the array.
