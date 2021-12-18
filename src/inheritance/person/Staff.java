@@ -1,4 +1,4 @@
-package src.inheritance;
+package src.inheritance.person;
 
 public class Staff extends Person {
     private String school;

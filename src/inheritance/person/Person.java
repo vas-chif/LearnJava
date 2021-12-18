@@ -1,4 +1,4 @@
-package src.inheritance;
+package src.inheritance.person;
 
 public abstract class Person {
     private String name;

@@ -1,4 +1,4 @@
-package src.inheritance;
+package src.inheritance.person;
 
 public class InheritanceMain {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package src.inheritance;
+package src.inheritance.person;
 
 public class Students extends Person{
     private String program;
