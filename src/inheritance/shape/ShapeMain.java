@@ -1,6 +1,9 @@
 package src.inheritance.shape;
 
 public class ShapeMain {
+
+    static Circle someCircle4;
+
     public static void main(String[] args) {
         Circle someCircle = new Circle(5);
         System.out.println("Circle Area is: " + someCircle.calculateArea());
@@ -34,6 +37,14 @@ public class ShapeMain {
         // aici putem apela fie calculateArea si calculateVolume, deoarece prima este mostenita di Shape a doua este din ThreeDimensionalShape
         System.out.println(someSphere3.calculateArea());
         System.out.println(someSphere3.calculateVolume());
-        
+
+        doStuff(someCircle4);
+    }
+
+    public static void doStuff(Circle circle){
+// conditia de mai jos este p/u a nu intra in eroare de .NullPointerException
+        if (circle!= null){
+            circle.calculateArea();
+        }
     }
 }
