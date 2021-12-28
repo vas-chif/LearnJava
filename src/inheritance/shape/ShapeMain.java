@@ -18,7 +18,7 @@ public class ShapeMain {
         Cube someCube = new Cube(5);
         System.out.println("Cube Area is: " + someCube.calculateArea());
         System.out.println("Cube Volume is: " + someCube.calculateVolume());
-        // POLIMORFIZM - ESTE CAPACITATEA DE A TE ADRESA LA ACELA OBECT PRIN DIFERITE MODELE DE INSTANZIARE
+        // POLIMORFIZM - ESTE CAPACITATEA DE A TE ADRESA LA ACELA OBECT PRIN DIFERITE MODELE DE INSTANZIA RE
         Shape someCircle1 = new Circle(5);
         TwoDimensionalShape someCircle2 = new Circle(5);
         Circle someCircle3 = new Circle(5);
