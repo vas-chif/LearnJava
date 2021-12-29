@@ -11,7 +11,10 @@ public class DivisibleBy7 {
     int countDivisibleBy7(int start, int end) throws InvalidRangeException {
         if (start >= end) {
             // trow exception
-            throw new InvalidRangeException("Invalid range: minimum is greater than or equal to maximum");
+            InvalidRangeException exception = new InvalidRangeException("Invalid range: minimum is greater than or equal to maximum");
+            throw exception;
+            // la linia 17 este simplificat codul della linia 14 si 15, si este acela lucru
+           // throw new InvalidRangeException("Invalid range: minimum is greater than or equal to maximum");
         }
 
         int count = 0;
