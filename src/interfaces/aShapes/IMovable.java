@@ -1,4 +1,4 @@
-package src.interfeaces.shapes;
+package src.interfaces.aShapes;
 
 public interface IMovable {
     void moveUp(int distance);

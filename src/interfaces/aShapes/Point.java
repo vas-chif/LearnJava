@@ -1,4 +1,4 @@
-package src.interfeaces.shapes;
+package src.interfaces.aShapes;
 
 public class Point {
     private double x;

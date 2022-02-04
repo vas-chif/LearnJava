@@ -1,8 +1,8 @@
-package src.interfeaces.shapes;
+package src.interfaces.aShapes;
 
 public class Circle implements IMovable {
     private Point center;
-    int radius;
+    private int radius;
 
     public Circle(Point center, int radius) {
         this.center = center;
@@ -11,6 +11,7 @@ public class Circle implements IMovable {
 
     @Override
     public void moveUp(int distance) {
+
         center.setY(center.getY() + distance);
     }
 

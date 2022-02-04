@@ -1,15 +1,14 @@
-package src.interfeaces.shapes;
+package src.interfaces.aShapes;
 
-import java.util.ArrayList;
-import java.util.List;
 
-public abstract class Polygon implements IMovable{
+public class Triangle extends Polygon {
 
-    protected List<Point> vertices;
-
-    protected Polygon() {
-        this.vertices = new ArrayList<>();
+    public Triangle(Point cornerOne, Point cornerTwo, Point cornerThree) {
+        this.vertices.add(cornerOne);
+        this.vertices.add(cornerTwo);
+        this.vertices.add(cornerThree);
     }
+/*
     @Override
     public void moveUp(int distance) {
         for (Point corner : vertices) {
@@ -26,15 +25,21 @@ public abstract class Polygon implements IMovable{
 
     @Override
     public void moveLeft(int distance) {
-        for (Point corner: vertices){
+        for (Point corner : vertices) {
             corner.setX(corner.getX() - distance);
         }
     }
 
     @Override
     public void moveRight(int distance) {
-        for (Point corner : vertices){
+        for (Point corner : vertices) {
             corner.setX(corner.getX() + distance);
         }
+    }
+ */
+
+    @Override
+    public String toString() {
+        return String.format("Triangle [%s]", vertices);
     }
 }
